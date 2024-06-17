@@ -14,6 +14,7 @@ build:
       steps:
         - name: "build application"
           cmd:
+            - whichnode > mynode
             - whoami > whoami
             - pwd > pwd
         # This step will be active when you enable artifact upload configuration to the storage.
