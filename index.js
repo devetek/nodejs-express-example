@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Express App deploy to dPanel!");
+  res.send("NodeJS express deploy to dPanel!");
 });
 
 app.listen(port, () => {
